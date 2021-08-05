@@ -6,7 +6,7 @@
 	<copyright>(C) 2014, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://www.ghsvs.de</authorUrl>
-	<version>2021.08.05</version>
+	<version>2021.08.06</version>
 	<description>PLG_SYSTEM_CUSTOMCSSGHSVS_XML_DESCRIPTION</description>
 
 	<versionHistory>
@@ -20,11 +20,11 @@
 	<infourl>https://github.com/GHSVS-de/plg_system_customcssghsvs#readme</infourl>
 
 	<downloadUrl>
-	https://github.com/GHSVS-de/plg_system_customcssghsvs/raw/2021.08.05/dist/plg_system_customcssghsvs-2021.08.05.zip
+	https://github.com/GHSVS-de/plg_system_customcssghsvs/raw/2021.08.06/dist/plg_system_customcssghsvs-2021.08.06.zip
 	</downloadUrl>
 
 	<versionCompare>
-	https://github.com/GHSVS-de/plg_system_customcssghsvs/compare/2021.08.05...2021.08.05
+	https://github.com/GHSVS-de/plg_system_customcssghsvs/compare/2021.08.05...2021.08.06
 	</versionCompare>
 
 	<scriptfile>installerScript.php</scriptfile>
@@ -42,8 +42,7 @@
 	</files>
 
 	<media folder="media" destination="plg_system_customcssghsvs">
-		<folder>backend</folder>
-		<folder>frontend</folder>
+		<folder>css</folder>
 	</media>
 
 	<config>
