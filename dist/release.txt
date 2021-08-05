@@ -1,0 +1,7 @@
+2021.08.05
+
+Joomla system plugin CharactersCounterGhsvs 2021.08.05
+-
+- [Download plg_system_customcssghsvs-2021.08.05.zip](https://github.com/GHSVS-de/plg_system_customcssghsvs/raw/2021.08.05/dist/plg_system_customcssghsvs-2021.08.05.zip)
+- [Compare releases 2021.08.05...2021.08.05](https://github.com/GHSVS-de/plg_system_customcssghsvs/compare/2021.08.05...2021.08.05)
+- [Changelogs](https://updates.ghsvs.de/changelog.php?file=plg_system_customcssghsvs)

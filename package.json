@@ -1,0 +1,78 @@
+{
+	"name": "plg_system_customcssghsvs",
+	"nameReal": "plg_system_customcssghsvs",
+	"filename": "customcssghsvs",
+	"version": "2021.08.05",
+	"versionCompare": "2021.08.05",
+	"update": {
+		"type": "plugin",
+		"folder": "system",
+		"client": "site",
+		"tag": "stable",
+		"targetplatform": ".*"
+	},
+	"changelog": {
+		"projecturl": "https://github.com/GHSVS-de/plg_system_customcssghsvs",
+		"infosDE": "",
+		"infosEN": "https://github.com/GHSVS-de/plg_system_customcssghsvs#readme",
+		"docsDE": "",
+		"docsEN": "https://github.com/GHSVS-de/plg_system_customcssghsvs#readme",
+		"lastTests": [
+			"PHP8",
+			"J3.9.29-dev",
+			"J4.0.0-rc6-dev",
+			"Vivaldi",
+			"Firefox"
+		]
+	},
+	"minimumPhp": "7.3.0",
+	"maximumPhp": "8.9999.9999",
+	"minimumJoomla": "3.9.0",
+	"maximumJoomla": "",
+	"allowDowngrades": "1",
+	"creationDate": "2014-03-15",
+	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
+	"copyright": "(C) 2014, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.",
+	"author": {
+		"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+		"email": "",
+		"url": "https://www.ghsvs.de"
+	},
+	"contributors": [
+		{
+			"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+			"email": "",
+			"url": "https://www.ghsvs.de"
+		}
+	],
+	"bugs": "https://github.com/GHSVS-de/plg_system_customcssghsvs/issues",
+	"homepage": "https://github.com/GHSVS-de/plg_system_customcssghsvs#readme",
+	"keywords": [
+		"joomla",
+		"system plugin",
+		"custom CSS",
+		"CSS",
+		"template"
+	],
+	"private": false,
+	"description": "Joomla system plugin. Load custom CSS files template specifically. BE and FE.",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GHSVS-de/plg_system_customcssghsvs.git"
+	},
+	"scripts": {
+		"g-build": "node build.js",
+		"g-npm-update-check": "ncu",
+		"g-ncu-override-json": "ncu -u"
+	},
+	"devDependencies": {
+		"adm-zip": "0.5.5",
+		"chalk": "^4.1.2",
+		"fs-extra": "10.0.0",
+		"npm-check-updates": "^11.8.3",
+		"rimraf": "3.0.2"
+	},
+	"peerDependencies": {},
+	"browserslist": []
+}
