@@ -42,8 +42,7 @@
 	</files>
 
 	<media folder="media" destination="{{name}}">
-		<folder>backend</folder>
-		<folder>frontend</folder>
+		<folder>css</folder>
 	</media>
 
 	<config>

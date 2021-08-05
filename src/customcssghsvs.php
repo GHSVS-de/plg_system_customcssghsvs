@@ -10,13 +10,13 @@ class PlgSystemCustomCssGhsvs extends CMSPlugin
 
 	public function onBeforeRender()
 	{
-		$path = JPATH_SITE . '/media/plg_system_customcssghsvs/';
+		$path = 'plg_system_customcssghsvs/';
 
-		if($this->app->isClient('administrator'))
+		if ($this->app->isClient('administrator'))
 		{
 			$path .= 'backend/';
 		}
-		elseif($this->app->isClient('site'))
+		elseif ($this->app->isClient('site'))
 		{
 			$path .= 'frontend/';
 		}
@@ -27,7 +27,6 @@ class PlgSystemCustomCssGhsvs extends CMSPlugin
 
 		$path .= $this->app->getTemplate() . '/customcssghsvs.css';
 		$version = JDEBUG ? time() : 'auto';
-
 		HTMLHelper::_('stylesheet', $path, ['relative' => true,
 			'version' => $version]);
 	}

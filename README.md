@@ -11,14 +11,15 @@
 ### For backend templates:
 - Example: Template is located in folder `/administrator/templates/be-example/`
 - Create a file `customcssghsvs.css`.
-- Put it in folder `/media/plg_system_customcssghsvs/backend/be-example/`
-- Or in `/administrator/templates/be-example/css/plg_system_customcssghsvs/backend/`
+- Put it in folder `/media/plg_system_customcssghsvs/css/backend/be-example/`
+- Or in `/administrator/templates/be-example/css/plg_system_customcssghsvs/backend/be-example/`
+- - Yes, nonsensical complicated, the override variant.
 ### For frontend templates:
 - Example: Template is located in folder `/templates/fe-example/`
 - Create a file `customcssghsvs.css`.
-- Put it in folder `/media/plg_system_customcssghsvs/frontend/fe-example/`
-- Or in `/templates/fe-example/css/plg_system_customcssghsvs/frontend/`
-
+- Put it in folder `/media/plg_system_customcssghsvs/css/frontend/fe-example/`
+- Or in `/templates/fe-example/css/plg_system_customcssghsvs/frontend/fe-example/`
+- - Yes, nonsensical complicated, the override variant.
 
 # My personal build procedure (WSL 1, Debian, Win 10)
 - Prepare/adapt `./package.json`.
