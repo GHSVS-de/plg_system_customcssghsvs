@@ -9,6 +9,7 @@ const {
 	author,
 	update,
 	changelog,
+	releaseTxt,
 	copyright,
 	creationDate,
 	description,
@@ -57,6 +58,7 @@ module.exports.main = async (xmlFile, zipFilename) =>
 		xml = xml.replace(/{{nameUpper}}/g, name.toUpperCase());
 		xml = xml.replace(/{{php_minimum}}/g, minimumPhp);
 		xml = xml.replace(/{{projecturl}}/g, changelog.projecturl);
+		xml = xml.replace(/{{releaseTxt.title}}/g, releaseTxt.title);
 		xml = xml.replace(/{{tag}}/g, update.tag);
 		xml = xml.replace(/{{targetplatform}}/g, update.targetplatform);
 		xml = xml.replace(/{{type}}/g, update.type);

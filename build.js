@@ -86,7 +86,7 @@ async function cleanOut (cleanOuts) {
 		`./dist/${zipFilename} written.`)));
 
 	cleanOuts = [
-		// `./package`,
+		`./package`,
 	];
 	await cleanOut(cleanOuts).then(
 		answer => console.log(chalk.cyanBright(chalk.bgRed(

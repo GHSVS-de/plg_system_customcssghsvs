@@ -47,7 +47,7 @@
 	</media>
 
 	<config>
-		<fields name="params" addfieldpath="plugins/system/customcssghsvs/fields">
+		<fields name="params">
 
 			<fieldset name="basic">
 				<field type="hidden" default="1" name="customcssghsvsplugin" />

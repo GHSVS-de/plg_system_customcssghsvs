@@ -11,6 +11,9 @@
 		"tag": "stable",
 		"targetplatform": ".*"
 	},
+	"releaseTxt": {
+		"title": "Joomla system plugin CustomCssGhsvs"
+	},
 	"changelog": {
 		"projecturl": "https://github.com/GHSVS-de/plg_system_customcssghsvs",
 		"infosDE": "",
