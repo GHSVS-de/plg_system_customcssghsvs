@@ -5,3 +5,4 @@ Joomla system plugin CustomCssGhsvs 2021.08.06
 - [Download plg_system_customcssghsvs-2021.08.06.zip](https://github.com/GHSVS-de/plg_system_customcssghsvs/raw/2021.08.06/dist/plg_system_customcssghsvs-2021.08.06.zip)
 - [Compare releases 2021.08.05...2021.08.06](https://github.com/GHSVS-de/plg_system_customcssghsvs/compare/2021.08.05...2021.08.06)
 - [Changelogs](https://updates.ghsvs.de/changelog.php?file=plg_system_customcssghsvs)
+- Checksum: `<sha256>d152d5f06c881a992b7a2d2b3d47768ecca2f3cc8098f2b8a86cdbf73a71fecc</sha256>`

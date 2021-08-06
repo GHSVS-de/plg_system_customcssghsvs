@@ -61,6 +61,11 @@
 					All releases page
 				</a>
 			]]></item>
+
+			<item><![CDATA[
+				Checksum: {{checksum}}
+			]]></item>
+
 		</note>
 
 		<remove>

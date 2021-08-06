@@ -26,7 +26,7 @@ const {
 	bugs
 } = require("./../package.json");
 
-module.exports.main = async (xmlFile, zipFilename) =>
+module.exports.main = async (xmlFile, zipFilename, checksum) =>
 {
   try
   {
@@ -35,6 +35,7 @@ module.exports.main = async (xmlFile, zipFilename) =>
 		xml = xml.replace(/{{authorName}}/g, author.name);
 		xml = xml.replace(/{{authorUrl}}/g, author.url);
 		xml = xml.replace(/{{bugs}}/g, bugs);
+		xml = xml.replace(/{{checksum}}/g, checksum);
 		xml = xml.replace(/{{client}}/g, update.client);
 		xml = xml.replace(/{{copyright}}/g, copyright);
 		xml = xml.replace(/{{creationDate}}/g, creationDate);
